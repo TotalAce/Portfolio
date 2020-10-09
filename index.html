@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" type="text/css" href="./assets/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -12,7 +14,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Aaron Oberg</a>
+        <a class="navbar-brand" href="index.html" id="logo">Aaron Oberg</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,10 +34,10 @@
       </nav>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-sm-12 style1">
-                <strong><h1>About Me</h1></strong>
+            <div class="col-md-8">
+                <strong><h1 class="block">About Me</h1></strong>
                 <hr> 
-                <img class="port" src="./assets/Port.-Aaron.jpeg" alt="Aaron Oberg">
+                <img id="about-image" src="./assets/Port.-Aaron.jpeg" alt="Aaron Oberg">
                 <p>I am a 24 year old living in West St. Paul, Minnesota. You'll usually find me lifting at the gym, doing some sort of outdoor activity, working on a computer project, or reading a book.
 
                 </p>
@@ -43,6 +45,19 @@
                 <p>I discovered my passion for computers after high-school when a friend of mine started customizing many of his own devices on his own.</p>
         </div>
     </div>
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright
+      </p>
+    </footer>
+    <!-- End of footer -->
+  
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   
 </body>
 </html>
